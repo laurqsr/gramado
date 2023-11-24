@@ -70,6 +70,14 @@ p {
 h3 {
   font-size: 3vh;
   margin-top: 3vh;
+  margin-left: 2vw;
+  color:#675f59
+}
+
+h2{
+  margin-top: 3vh;
+  margin-left: 2vw;
+  color:#675f59
 }
 
  #texto {
@@ -119,9 +127,3 @@ h3 {
           font-size: 2vh;
       }
   }
-
-.como {
-    margin-top: 8vh;
-    margin-left: 2vw;
-    color:#675f59
-}
