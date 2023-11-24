@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <title>Pontos Turísticos de Gramado, RS</title>
+  </head>
+  <body>
+    <header>
+      <h1>Pontos Turísticos de Gramado, RS</h1>
+    </header>
+    <nav>
+      <ul id="menu-list">
+        <li><a href="index.html">Página Inicial</a></li>
+        <li><a href="pturistico.html">Pontos Turísticos</a></li>
+        <li><a href="clima.html">Clima em Gramado</a></li>
+        <li><a href="chegar.html">Como chegar em Gramado?</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    <div class="texto">
+      <p id="descricao">
+        Gramado é um verdadeiro pedaço da Europa no Rio Grande do Sul. A cidade possui diversos pontos turísticos, entre os quais se destacam:
+      </p>
+      <section>
+        <h2>Rua Coberta</h2>
+        <figure>
+          <img src="rua.jpg" alt="Rua Coberta" height="250" />
+        </figure>
+        <p>
+          Um dos pontos mais atrativos de Gramado é a Rua Coberta. Coberta por um teto translúcido, possui uma linda decoração de plantas pendentes. Além disso, a Rua Coberta fica no centro de Gramado e na frente do Palácio dos Festivais, onde acontece o famoso Festival de Cinema de Gramado.
+        </p>
+      </section>
+      <section>
+        <h2>Lago Negro</h2>
+        <figure>
+          <img src="lago.jpeg" alt="Lago Negro" height="250" />
+        </figure>
+        <p>
+          O Lago Negro é um dos principais pontos turísticos de Gramado. Sua paisagem é semelhante à de muitos locais da Europa, rodeado por pinheiros, hortênsias no inverno e azaleias no verão.
+        </p>
+      </section>
+      <section>
+        <h2>Rua Torta</h2>
+        <figure>
+          <img src="ruatorta.jpg" alt="Rua Torta" height="250" />
+        </figure>
+        <p>
+          Uma rua inspirada na famosa Lombard Street da Califórnia, mas com um toque especial da charmosa cidade de Gramado. A Rua Torta na Serra Gaúcha foi criada para eliminar degraus da colina e permitir a passagem de automóveis. Com o tempo, tornou-se um dos pontos da cidade, principalmente para tirar fotos.
+        </p>
+      </section>
+      <section>
+        <h2>Snowland</h2>
+        <figure>
+          <img src="snowland.jpg" alt="Snowland" height="250" />
+        </figure>
+        <p>
+          O complexo fechado tem diversas atrações que envolvem neve. O parque possui uma montanha de neve artificial e uma pista onde os visitantes podem praticar snowboard, descer com boia de neve e até andar de moto de neve. O Snowland oferece roupas e calçados apropriados para as atividades, mas é sempre bom levar roupas de frio extra, pois algumas áreas do parque são abaixo de zero.
+        </p>
+      </section>
+    </div>
+  </body>
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById("menu-list");
+      if (menu.style.display === "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+    }
+  </script>
+</html>
